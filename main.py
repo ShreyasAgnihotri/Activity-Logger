@@ -9,8 +9,8 @@ AGE = 20
 
 
 
-APP_ID = "21e828f0"
-API_KEY = "efefa0e9a0c2abfa015cbb093d7de1f7"
+APP_ID = "xxxxx"
+API_KEY = "xxxxxxxxxxxxxx"
 
 
 exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
@@ -49,7 +49,7 @@ for exercise in result["exercises"]:
     }
 
     bearer_headers = {
-    "Authorization": "Bearer AAAAAAAAAAAAAAAAAAAAAMLheAAAAAAA0%2BuSeid%2BULvsea4JtiGRiSDSJSI%3DEUifiRBkKG5E2XzMDjRfl76ZC9Ub0wnz4XsNiRVBChTYbJcE3F"
+    "Authorization": "xxxxxxxxxxxxxxx"
     }
     sheet_response = requests.post(
         sheet_endpoint, 
