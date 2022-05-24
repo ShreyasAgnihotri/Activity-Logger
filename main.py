@@ -16,7 +16,7 @@ API_KEY = "xxxxxxxxxxxxxx"
 exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
 sheet_endpoint = "https://api.sheety.co/d58f90c7764b8a7c2fffb9c33bc5ca22/myWorkouts/workouts"
 
-exercise_text = input("Tell me which exercises you did: ")
+exercise_text = input("Log in the exercises completed: ")
 
 headers = {
     "x-app-id": APP_ID,
